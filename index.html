@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script defer src="script.js"></script>
+    <title>Курсовая</title>
+</head>
+<body>
+    <main id="main">
+        <header id="header">
+            <div class="container header-container">
+                <picture>
+                    <source srcset="img/logo-768px.svg" media="(max-width: 698px)">
+                    <img src="img/logo.svg" alt="" id="header-logo">
+                </picture>
+                <input type="text" id="header-inp" placeholder="Введите запрос">
+            </div>
+        </header>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <h1 id="hero-title">Клиенты</h1>
+                    <div class="table-wrapper">
+                        <table id="table">
+                            <thead class="thead">
+                                <tr class="table-tr">
+                                    <th class="table-th column-id">ID 
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_121_2493)">
+                                                <path d="M10 6L9.295 5.295L6.5 8.085L6.5 2H5.5L5.5 8.085L2.71 5.29L2 6L6 10L10 6Z" fill="#9873FF"/>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_121_2493">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>                                        
+                                    </th>
+                                    <th class="table-th column-fio">Фамилия Имя Отчество
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_121_2493)">
+                                                <path d="M10 6L9.295 5.295L6.5 8.085L6.5 2H5.5L5.5 8.085L2.71 5.29L2 6L6 10L10 6Z" fill="#9873FF"/>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_121_2493">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <span class="column-fio-el">А-Я</span>
+                                    </th>
+                                    <th class="table-th column-date-create">Дата и время создания
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_121_2493)">
+                                                <path d="M10 6L9.295 5.295L6.5 8.085L6.5 2H5.5L5.5 8.085L2.71 5.29L2 6L6 10L10 6Z" fill="#9873FF"/>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_121_2493">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </th>
+                                    <th class="table-th column-date-update">Последние изменения
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_121_2493)">
+                                                <path d="M10 6L9.295 5.295L6.5 8.085L6.5 2H5.5L5.5 8.085L2.71 5.29L2 6L6 10L10 6Z" fill="#9873FF"/>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_121_2493">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </th>
+                                    <th class="table-th">Контакты</th>
+                                    <th class="table-th">Действия</th>
+                                </tr>
+                            </thead>
+                            <tbody class="tbody"></tbody>
+                        </table>
+                    </div>
+                    <button class="hero-btn btn-reset">
+                        <svg class="hero-btn-svg" width="23" height="16" viewBox="0 0 23 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.5 8C16.71 8 18.5 6.21 18.5 4C18.5 1.79 16.71 0 14.5 0C12.29 0 10.5 1.79 10.5 4C10.5 6.21 12.29 8 14.5 8ZM5.5 6V3H3.5V6H0.5V8H3.5V11H5.5V8H8.5V6H5.5ZM14.5 10C11.83 10 6.5 11.34 6.5 14V16H22.5V14C22.5 11.34 17.17 10 14.5 10Z">
+                        </svg>                        
+                        Добавить клиента
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+@media (max-width: 1180px) {
+    .container {
+        margin: 0 auto;
+        padding: 0 5px;
+        max-width: 984px;
+    }
+
+    .header-container {
+        padding: 20px 5px;
+    }
+    
+    #hero-title {
+        margin-bottom: 10px;
+    }
+
+    .column-date-create {
+        padding-right: 20px;
+    }
+
+    .column-date-update {
+        padding-right: 20px;
+    }
+
+    .column-ID {
+        padding: 0 20px;
+    }
+
+    .column-FIO {
+        padding-right: 10px;
+    }
+
+    .column-time {
+        padding-right: 23px;
+    }
+
+    .column-contacts {
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 986px) {
+    .container {
+        max-width: 728px;
+    }
+
+    .btn-contact-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn-contact:not(:last-child) {
+        margin: 0 0 5px 0;
+    }
+
+    .table-wrapper {
+        overflow-y: auto;
+    }
+    
+    #table {
+        min-width: 728px;
+    }
+
+    .column-date-create {
+        padding-right: 0;
+    }
+
+    .column-date-update {
+        padding-right: 0;
+    }
+
+    .column-FIO {
+        max-width: 312px;
+        padding-right: 24px;
+    }
+
+    .column-time {
+        max-width: 72px;
+        padding-right: 0;
+    }
+
+    .column-contacts {
+        padding-right: 23px;
+    }
+
+}
+
+@media (max-width: 698px) {
+    .header-container {
+        padding: 8px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    #header-inp {
+        display: none;
+    }
+
+    #header-logo {
+        margin: 0;
+    }
+
+    #hero {
+        padding: 30px 0 0 0;
+    }
+
+    #hero-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .windowGetClient {
+        width: 300px;
+    }
+
+    .modal-wrapper {
+        padding: 24px 15px;
+    }
+
+    .contact-wrapper.open {
+        padding: 25px 15px;
+    }
+
+    .contact-input {
+        padding: 9px 6px;
+    }
+
+    .window-delete {
+        width: 300px;
+        padding: 25px 12px;
+    }
+}
